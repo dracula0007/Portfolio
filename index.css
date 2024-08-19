@@ -29,17 +29,15 @@ a {
 	color: #ff0096;
 }
 
+#r {
+	color: #ff0000;
+	animation: change 1s;
+}
+
 #k {
     	animation: change 1s;
 }
 
-l {
-	color: #ff0000;
-}
-
-#l {
-    	animation: change 1s;
-}
 
 #op{
     	color: #888888
