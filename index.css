@@ -30,7 +30,7 @@ a {
 }
 
 #r {
-	color: #ff0000;
+	animation: move 1s;
 }
 
 #k {
@@ -40,6 +40,12 @@ a {
 
 #op{
     	color: #888888
+}
+
+@keyframes move {
+    	0%  { color:  #ff0000; }
+    	50% { color:  #ff0000; }
+    	99% { color: black; }
 }
 
 @keyframes change {
