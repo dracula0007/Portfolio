@@ -33,6 +33,11 @@ a {
     	animation: change 1s;
 }
 
+#l {
+	color: red;
+    	animation: change 1s;
+}
+
 #op{
     	color: #888888
 }
