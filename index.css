@@ -37,8 +37,20 @@ a {
     	color: #888888
 }
 
+@media (max-width: 600px) {
+  #console {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  #a, #c, #b, #k {
+    font-size: 12px;
+  }
+}
+
 @keyframes change {
     	0%  { color:  #0f0; }
     	50% { color:  #0f0; }
     	99% { color: black; }
 }
+
