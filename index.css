@@ -33,8 +33,11 @@ a {
     	animation: change 1s;
 }
 
-#l {
+l {
 	color: #ff0000;
+}
+
+#l {
     	animation: change 1s;
 }
 
