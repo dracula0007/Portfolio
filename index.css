@@ -2,7 +2,6 @@ body {
 	background-color: #000
 }
 
-
 #console {
 	font-family: courier, monospace;
 	color: #fff;
@@ -43,8 +42,6 @@ a {
     	color: #888888
 }
 
-
-
 @keyframes move {
     	0%  { color:  #ff0000; }
     	50% { color:  #ff0000; }
@@ -55,22 +52,4 @@ a {
     	0%  { color:  #0f0; }
     	50% { color:  #0f0; }
     	99% { color: black; }
-}
-.asd {
-	color:red
-}
-
-@media (width < 800px) {
-	span , p , a  {
-		font-size:13px;
-		width:90%;
-	}
-	div {
-		width:100%
-	}
-	#console {
-		width:95%
-	}
-	
-
 }
