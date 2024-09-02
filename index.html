@@ -1,7 +1,7 @@
 
 <html> 
   <head> 
-    <meta http-equiv="refresh" content="10; url=https://tryhackme.com/p/ANONYMO">
+<!--     <meta http-equiv="refresh" content="10; url=https://tryhackme.com/p/ANONYMO"> -->
     <title>Anonymo Portfolio</title> 
     <link rel="icon" type="image/x-icon" href="images/Logo.png">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script> 
@@ -9,6 +9,11 @@
   </head> 
   <body> 
     <script type="text/javascript" src="index.js"> 
+      window.onload = function() {
+        setTimeout(function() {
+          window.open('https://tryhackme.com/p/ANONYMO','_blank');
+        }, 15000);
+      };
     </script> 
     <div id="console"></div> 
     
