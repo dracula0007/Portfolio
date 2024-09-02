@@ -33,12 +33,16 @@ a {
 	animation: move 1s;
 }
 
+#k {
+    	animation: change 1s;
+}
+
 #op{
     	color: #888888
 }
 
-@keyframes move {
-    	0%  { color:  #ff0000; }
-    	50% { color:  #ff0000; }
+@keyframes change {
+    	0%  { color:  #0f0; }
+    	50% { color:  #0f0; }
     	99% { color: black; }
 }
